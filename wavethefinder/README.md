@@ -1,2 +1,2 @@
-안녕하세요
-이번주도 고생하셨습니다~
+# Netflix VFX Academy Pipline TD 1기
+개인 프로젝트 api
