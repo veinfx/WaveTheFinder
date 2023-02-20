@@ -1,0 +1,14 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+include(ExternalProject)
+
+ExternalProject_add(
+    wavetherfinder
+    SOURCE_DIR ${CMAKE_SOURCE_DIR}
+    PREFIX wavetherfinder
+    INSTALL_COMMAND ""
+    BUILD_COMMAND cp -rf ${CMAKE_SOURCE_DIR}/python ${CMAKE_INSTALL_PREFIX}
+    ALWAYS 1
+)
+
+install(CODE "message(STATUS Running Phony install)")
