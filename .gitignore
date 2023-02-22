@@ -1,0 +1,8 @@
+/build
+*.pyc
+*.log
+**.idea
+**pycache
+*.xml
+.idea/workspace.xml
+
